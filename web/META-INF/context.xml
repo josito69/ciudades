@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Ciudades_del_mundo">
+    <!-- Pool de conexiones para la aplicación -->
+    <Resource name="jdbc/ciudades" auth="Container" type="javax.sql.DataSource"
+              maxActive="15" maxIdle="3" maxWait="5000" username="root" password="faustino"
+              driverClassName="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/world">
+        
+    </Resource>
+</Context>
